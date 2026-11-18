@@ -1,0 +1,125 @@
+
+/* KStyle CSS v1.0.0 */
+/* Utility-first CSS Framework */
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* DISPLAY */
+
+.ks-block { display: block; }
+.ks-inline { display: inline; }
+.ks-flex { display: flex; }
+.ks-grid { display: grid; }
+.ks-hidden { display: none; }
+
+/* FLEX */
+
+.ks-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ks-items-center { align-items: center; }
+.ks-justify-center { justify-content: center; }
+.ks-justify-between { justify-content: space-between; }
+.ks-flex-column { flex-direction: column; }
+.ks-flex-wrap { flex-wrap: wrap; }
+
+/* COLORS */
+
+.ks-bg-black { background: #000; }
+.ks-bg-white { background: #fff; }
+.ks-bg-red { background: #ef4444; }
+.ks-bg-blue { background: #3b82f6; }
+.ks-bg-green { background: #22c55e; }
+.ks-bg-gray { background: #808080; }
+
+.ks-text-black { color: #000; }
+.ks-text-white { color: #fff; }
+.ks-text-red { color: #ef4444; }
+.ks-text-blue { color: #3b82f6; }
+.ks-text-green { color: #22c55e; }
+.ks-text-gray { color: #808080; }
+
+/* TEXT */
+
+.ks-font-bold { font-weight: bold; }
+.ks-font-normal { font-weight: normal; }
+.ks-text-center { text-align: center; }
+.ks-text-left { text-align: left; }
+.ks-text-right { text-align: right; }
+
+/* FONT SIZE */
+
+.ks-text-xs { font-size: 12px; }
+.ks-text-sm { font-size: 14px; }
+.ks-text-base { font-size: 16px; }
+.ks-text-lg { font-size: 20px; }
+.ks-text-xl { font-size: 24px; }
+.ks-text-2xl { font-size: 32px; }
+.ks-text-3xl { font-size: 40px; }
+
+/* SPACING */
+
+.ks-p-1 { padding: 4px; }
+.ks-p-2 { padding: 8px; }
+.ks-p-3 { padding: 12px; }
+.ks-p-4 { padding: 16px; }
+.ks-p-5 { padding: 20px; }
+.ks-p-6 { padding: 24px; }
+
+.ks-m-1 { margin: 4px; }
+.ks-m-2 { margin: 8px; }
+.ks-m-3 { margin: 12px; }
+.ks-m-4 { margin: 16px; }
+.ks-m-5 { margin: 20px; }
+.ks-m-6 { margin: 24px; }
+
+/* BORDERS */
+
+.ks-rounded { border-radius: 8px; }
+.ks-rounded-lg { border-radius: 12px; }
+.ks-rounded-xl { border-radius: 16px; }
+.ks-rounded-full { border-radius: 9999px; }
+
+.ks-border {
+    border: 1px solid #ddd;
+}
+
+/* SHADOW */
+
+.ks-shadow {
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+}
+
+/* WIDTH */
+
+.ks-w-full { width: 100%; }
+.ks-w-half { width: 50%; }
+
+/* HEIGHT */
+
+.ks-h-full { height: 100%; }
+.ks-h-screen { min-height: 100vh; }
+
+/* POSITION */
+
+.ks-relative { position: relative; }
+.ks-absolute { position: absolute; }
+.ks-fixed { position: fixed; }
+
+/* CURSOR */
+
+.ks-pointer { cursor: pointer; }
